@@ -1,0 +1,13 @@
+<div class='backgroundcover'>
+  <div class ='loginContainer'>
+    <h3> Login </h3>
+    <form>
+      <p class='labels'>Username:</p>
+      <input [(ngModel)]="username" name='username' type='text' placeholder="Username">
+      <p class='labels'>Password:</p>
+      <input [(ngModel)]="password" name='password' type='password' placeholder="Password"> <br>
+      <input (click)="reg()" class='labels' type='submit' value='Login'>
+    </form>
+    <a class='formlink' href='http://localhost:4200/signup'>Register</a>
+  </div>
+</div>

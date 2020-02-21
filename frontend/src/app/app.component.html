@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div>
+      <h1>{{title}}</h1>
+      <a href="http://localhost:4200/login" (click)="logout()" ID='headerlink' class="btn btn-primary btn-lg active" role="button" aria-pressed="true"> Log Out </a>
+      <a href="/home" class="btn btn-primary btn-lg active" ID='headerlink' role="button" aria-pressed="true">Home</a>
+    </div>
+    <router-outlet></router-outlet>
+  </body>
+</html>

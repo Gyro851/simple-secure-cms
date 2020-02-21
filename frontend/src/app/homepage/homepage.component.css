@@ -1,0 +1,44 @@
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Baloo', cursive;
+}
+
+p {
+  margin: 37px;
+  font-family: 'Baloo', cursive;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+.info {
+  height: 450px;
+  width: 600px;
+  border-radius: 10px;
+  background-color: rgb(128,183,173);;
+  margin: 50px;
+  margin-right: 150px;
+  margin-left: 20px;
+  -webkit-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+}
+
+.links {
+  display: block;
+  overflow: auto;
+  width: 200px;
+  border-radius: 10px;
+  background-color: rgb(128,183,173);;
+  margin: 50px;
+  -webkit-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+}

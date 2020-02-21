@@ -1,0 +1,12 @@
+<div *ngIf='this.isAdmin'>
+  <form>
+    <h3> Add Cat </h3>
+    <p>Cat Breed</p>
+    <input [(ngModel)]="name" name='catName'type='text'>
+    <p>Image URL</p>
+    <input [(ngModel)]="catimageurl" name='catImage' type='text'> <br>
+    <p>Facts about this Cat</p>
+    <textarea [(ngModel)]="catfacts" rows="10" cols="50" name="catFacts" form="usrform"></textarea> <br>
+    <input (click)="res()" class='labels' type='submit' value='Submit'>
+  </form>
+</div>

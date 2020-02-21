@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-family: 'Baloo', cursive;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 74px;
+  display: flex;
+  flex: auto;
+  -webkit-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+}
+
+
+p {
+  margin: 37px;
+  font-family: 'Baloo', cursive;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 74px;
+  display: flex;
+  flex: auto;
+  -webkit-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  -moz-box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  box-shadow: 10px 10px 23px -1px rgba(0,0,0,0.58);
+  width: 90vw;
+  height: 95px;
+  padding: 10px;
+  text-align: center;
+}

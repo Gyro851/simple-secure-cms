@@ -1,0 +1,32 @@
+.backgroundcover {
+  background:rgba(128,183,173,0.8);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+body {
+  background-image: url('/assets/image/background.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  min-height: 100vh;
+}
+
+a {
+  color: #fff;
+  background-color: rgba(128,183,173,0) !important;
+  border-color: #ffffff !important;
+  border-radius: 50px !important;
+  width: 140px;
+  margin: 12px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+  text-align: center;
+}

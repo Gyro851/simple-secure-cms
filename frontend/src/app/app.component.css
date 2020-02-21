@@ -1,0 +1,17 @@
+
+h1 {
+  text-align: center;
+  background:rgb(128,183,173);
+  margin: 0px;
+  height: 60px;
+  padding-top: 5px;
+  font-family: 'Diplomata SC', cursive;
+}
+
+#headerlink{
+  display: flex;
+  float: right;
+  width: auto;
+  margin-top: -50px;
+  text-align: center;
+}
